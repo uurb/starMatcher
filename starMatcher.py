@@ -41,7 +41,7 @@ def starMatcher(img1, img2, verbose=False):
 
 if __name__ == '__main__':
     argument_count = len(sys.argv)
-    if not(argument_count == 3):
+    if argument_count != 3:
         print("usage: python starMatcher.py imagePath1 imagePath2")
         exit()
     image1_path = sys.argv[1]
